@@ -62,7 +62,7 @@ namespace BookList.Controllers
             return View(book);
         }
 
-        //Edit: Books/Details/5
+        //Edit: Books/Edit/5
         public async Task<IActionResult> Edit(int? id)
         {
             if (id == null)
@@ -80,7 +80,7 @@ namespace BookList.Controllers
             return View(book);
         }
 
-        //Delete: Books/Details/5
+        //Delete: Books/Delete/5
         public async Task<IActionResult> Delete(int? id)
         {
             if (id == null)
